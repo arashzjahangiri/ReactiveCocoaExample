@@ -30,7 +30,7 @@
                                                                
                                                                NSString *dateString = [[json objectForKey:@"data"]objectForKey:@"date"];
                                                                if (err) {
-                                                                   NSLog(@"Unable to initialize PublicPhotosModel, %@", err.localizedDescription);
+                                                                   NSLog(@"Unable to decode json, %@", err.localizedDescription);
                                                                    [subscriber sendError:error];
                                                                }
                                                                
