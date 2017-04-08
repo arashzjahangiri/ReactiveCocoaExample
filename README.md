@@ -6,7 +6,7 @@ The application uses node.js as backend REST client which is running at http://l
 
 Make sure you have node.js and npm installed.
 
-1.git clone https://github.com/arashzjahangiri/RxSwiftAlamofire.git<br />
+1.git clone https://github.com/arashzjahangiri/ReactiveCocoaExample.git<br />
 2.cd RxSwiftAlamofire/server<br />
 3.npm update<br />
 4.node server.js<br />
